@@ -1,0 +1,43 @@
+Ma'am, you can access the dataset by accesing the folder named sarseg with your 
+BITS Pilani mail account (jennifer.ranjani@pilani.bits-pilani.ac.in).
+
+sarseg/Code - Has all scripts we used
+sarseg/Data/complete_dataset/AerialImageDataset - Has initial dataset(5000x5000pixels)
+sarseg/Data/complete_dataset/crop/gt and /images - has cropped aerial images(500x500)
+sarseg/Data/complete_dataset/crop/noisy images - has images to which noise is added 
+						  and is greyscale.
+sarseg/Data/modelout - Has saved weights(.h5) and models(.hdf5) for SegNet model
+
+    savedmodel: run  -  loss       -   accuracy%
+	 05   -  0.4939         86.7%
+	 06   -  0.4285         86.1%
+	 07   -  0.4221         87.9%
+	 08   -  0.3865         89.1%
+	 09   -  0.4028         84.5%
+	 10   -  0.3641         87.8%
+	 11   -  0.3366         89.0%   
+	 12   -  0.3285
+	 13   -  0.2996         90.2%
+	 14   -  0.3088         89.0%
+	 15   -  0.3039         88.6%
+	 16   -  0.2863         89.1%
+	 17   -  .27xy
+ 	 18   -  0.2804          89.4%
+ 	 19   -  0.2242          92.2%
+	 21   -  0.2260          91.3%
+	 22   -  0.2158          91.8%
+	 23   -  0.2102          91.8%
+	 24   -  0.2262          91.4%   good
+	 25   -  0.2124          91.6%
+	 26   -  0.1962          92.9%
+	 27   -  0.1780          93.65%   good
+	 28   -  0.27xy           
+	 29   -  0.2302          90.65%   vgood
+	 30   -  0.2443          90.1%
+	 31   -  0.2098          92.9%
+	 32   -  0.2523          89.9%
+	 33   -  0.1925           92.5%
+
+	sar1 - 0.1733   94.77%
+	sar5 - 0.0996   97.20%
+	sar6 - 0.0693   98.31%
